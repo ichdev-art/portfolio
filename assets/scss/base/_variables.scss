@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+// Couleurs
+$primary-color: #93441A;
+$secondary-color: #DAAB3A;
+$accent-color: #B67332;
+$text-color: #141414;
+$background-light: #EEE6D8;
+$background-dark: #2D3436;
+
+// Typographie
+$font-stack: 'Montserrat', sans-serif;
+$font-size-base: 16px;
+$font-size-title: 2.5rem;
+$font-size-subtitle: 1.5rem;
+
+// Espacements
+$spacing-xs: 4px;
+$spacing-sm: 8px;
+$spacing-md: 16px;
+$spacing-lg: 32px;
+$spacing-xl: 64px;
+
+// Rayons / Ombres
+$radius: 8px;
+$box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);

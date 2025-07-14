@@ -1,0 +1,12 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    & input,textarea {
+        padding: 1rem;
+        border: 1px solid $secondary-color;
+        border-radius: 4px;
+        font-family: $font-stack;
+    }
+}

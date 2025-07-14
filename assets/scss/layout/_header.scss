@@ -1,0 +1,28 @@
+header {
+    background-color: $secondary-color;
+    text-align: center;
+    padding: 2rem;
+
+    & nav ul {
+        list-style: none;
+        font-weight: bold;
+        display: flex;
+        justify-content: space-around;
+        gap: 1.5rem;
+        
+        @media screen and (max-width: 768px) {
+            flex-direction: column;
+            align-items: center;
+            
+        }
+
+        & li a {
+            color: $primary-color;
+            text-decoration: none;
+
+            &:hover {
+                color: $accent-color;
+            }
+        }
+    }
+}

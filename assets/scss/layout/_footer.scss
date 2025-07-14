@@ -1,0 +1,19 @@
+footer {
+    background-color: $secondary-color;
+    color: $text-color;
+    text-align: center;
+    padding: 1.5rem;
+
+    & ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 1.5rem;
+
+        & li a {
+            color: $text-color;
+            text-decoration: none;
+
+        }
+    }
+}
