@@ -81,7 +81,7 @@ main {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        gap: 2rem;
+        
         
         & h2 {
             text-align: center;
@@ -95,6 +95,7 @@ main {
             box-shadow: $box-shadow;
             flex: 1 1 calc(33.333% - 2rem);
             text-align: center;
+            margin: $spacing-sm;
         }
         
         & p {

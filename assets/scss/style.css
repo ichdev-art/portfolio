@@ -127,7 +127,6 @@ main #competences {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 2rem;
 }
 main #competences h2 {
   text-align: center;
@@ -140,6 +139,7 @@ main #competences ul li {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   flex: 1 1 calc(33.333% - 2rem);
   text-align: center;
+  margin: 8px;
 }
 main #competences p {
   text-align: center;
